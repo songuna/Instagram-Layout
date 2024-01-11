@@ -19,7 +19,7 @@ body{
     
     display: grid;
     grid-template-columns:1fr ;
-    grid-template-rows:50px 375px ifr;
+    grid-template-rows:50px 375px 1fr;
     grid-template-areas:
     "header"
     "img"
