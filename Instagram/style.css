@@ -115,10 +115,14 @@ body{
 
 .like{
     grid-area: like;
+    font-size: 12px;
+    margin: 0 10px;
 }
 
 .comment{
     grid-area: comment;
+    font-size: 10px;
+    margin: 0 10px;
 }
 
 ul{
