@@ -85,6 +85,12 @@ body{
 
 .top-left{
     grid-area: top-left;
+    display: flex;
+    font-size: 10px;
+    width: 100%;
+    height:100%;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .top-center{
@@ -93,7 +99,14 @@ body{
 
 .top-right{
     grid-area: top-right;
+    display: flex;
+    font-size: 10px;
+    width: 100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .like{
     grid-area: like;
