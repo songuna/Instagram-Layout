@@ -43,6 +43,7 @@ body{
 
 .header-img{
     border: 1px soild black;
+    border-radius: 50%;
 }
 
 .header-right{
