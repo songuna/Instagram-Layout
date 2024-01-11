@@ -95,6 +95,11 @@ body{
 
 .top-center{
     grid-area: top-center;
+    display: flex;
+    width: 100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .top-right{
@@ -114,4 +119,19 @@ body{
 
 .comment{
     grid-area: comment;
+}
+
+ul{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    width: 50%;
+}
+
+li{
+    width: 7px;
+    height: 7px;
+    background-color: lightgray;
+    border-radius: 50%;
 }
