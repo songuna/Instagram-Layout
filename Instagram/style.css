@@ -41,6 +41,10 @@ body{
     float: left;
 }
 
+.header-img{
+    border: 1px soild black;
+}
+
 .header-right{
     float: right;
 }
