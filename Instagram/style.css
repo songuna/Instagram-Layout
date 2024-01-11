@@ -82,3 +82,23 @@ body{
     "like like like"
     "comment comment comment";
 }
+
+.top-left{
+    grid-area: top-left;
+}
+
+.top-center{
+    grid-area: top-center;
+}
+
+.top-right{
+    grid-area: top-right;
+}
+
+.like{
+    grid-area: like;
+}
+
+.comment{
+    grid-area: comment;
+}
