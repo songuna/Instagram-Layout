@@ -32,7 +32,7 @@ body{
 
 .header{
     grid-area: header;
-    width: 100%;
+    width: auto;
     height: auto;
     margin: 5px 10px;
 
@@ -53,9 +53,13 @@ body{
 
 .header-right{
     float: right;
-    height: 100%;
     display: flex;
     align-items: center;
+}
+
+.right-menu{
+    cursor: pointer;
+    user-select: none;
 }
 
 .img{
